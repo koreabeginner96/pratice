@@ -1,4 +1,4 @@
-# hello git
+q# hello git
 
 ## git 명령어 요약
 
@@ -53,3 +53,15 @@
 - 제일 최근것 커밋 클릭해서 리버트하고 그다음 순서에 맞는 리버트 순서에 맞게 제거 하기!
 - 예 commit3 리버트 -> commit2 리버트...
 - git bash 명령어  git revrt HEAD HEAD~1  ->(ESc-> :wq)*2 반복
+
+## 커밋 덮어쓰기
+- 필요하다면 이전 commit 덮어쓰기 가능
+- 'commit --ammend'
+- 작업 중인 내용의 임시 저장
+- 저장후 SourceTree 커밋 옵션(오른쪽하단)-> 마지막 커밋 정정
+- 이미 push를 했을 경우 'git push --force' 해야함.
+
+## Stash
+- 다른 브랜치로 체크아웃하기 전에 현재 작업 내용을 저장하는 임시 저장 장소
+- 유용하니 잘 사용해보자!
+
